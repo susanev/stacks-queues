@@ -1,3 +1,4 @@
+#LIFO
 class Stack
   def initialize
     @store = Array.new
@@ -12,7 +13,7 @@ class Stack
   end
 
   def top
-    return @store.last
+    return @store.first
   end
  
   def size

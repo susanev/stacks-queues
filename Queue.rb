@@ -1,3 +1,4 @@
+#FIFO
 class Queue
   def initialize
     @store = Array.new
@@ -12,7 +13,7 @@ class Queue
   end
 
   def front
-    return @store.first
+    return @store.last
   end
  
   def size
